@@ -1,64 +1,65 @@
-body {
-    /* background-color: salmon; */
-    background: url(/bgs.jpg) no-repeat center center/cover;
+*{
+    margin: 0;
+    padding: 0;
 }
+body{
+    /* background-color:rgb(148, 171, 172) ; */
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.page {
-    margin: 23px;
-    padding: 4px 3px;
-    font-size: 1.4rem;
-    /* position: absolute; */
+    margin: 50px auto;
+    height: 540px;
+    width: 24%;
+    box-shadow:   0px 0px 10px black;
+    background: white;
+    border-radius: 30px;
 }
-
-h1 {
-    /* justify-content: center; */
-    text-align: center;
-    color:#5356b6 ;
+h1{
+    margin: 40px;
+    color: blue;
+    text-shadow: 0px 0px 5px blue;
+    font-family: 'Kaushan Script', cursive;
 }
-
-.box {
-    /* border: 2px solid red; */
-    width: 40%;
-    height: 276px;
-    margin-top: 141px;
-    margin-left: 392px;
-    justify-content: center;
-    text-align: center;
-    background-color:#556e7461;
-    border-radius: 20px;
-    box-shadow:  16px 17px  #6a424261;
+.login-item{
+    margin-top: 30px;
 }
-
-.box input {
-    margin: -3px;
-    padding: 5px;
-    border-radius: 23px;
-    font-size: 1.2rem;
-    /* border-color: royalblue; */
-    border: none;
-    color: grey;
-}
-.page label{
-    color:#23590d;
+.login-item label{
+    font-size: 18px;
     font-weight: bold;
 }
-#btn{
+.login-item input{
     margin: 10px;
-    font-size: 1.1rem;
-    border-radius: 9px;
+    padding: 8px;
+    width: 100%;
     border: none;
-    background-color: #b169ff59;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    font-family: 'Alegreya', serif;
+    background: none;
+}
+.main p{
+    margin-left: 200px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn{
+    margin: 30px;
+    padding: 7px 60px;
+    border-radius: 23px;
+    border: 1px solid black;
+    background: linear-gradient(cyan,rgb(182, 13, 126));
     font-weight: bold;
 }
-#btn:hover{
+.btn:hover{
     cursor: pointer;
-    color: indigo;
-    background-color: lawngreen;
 }
-p{
-    /* margin: 2px; */
-    margin-left: 242px;
-    /* margin-bottom: -17px; */
-    margin-top: 11px;
-    text-decoration: underline;
+.containt{
+    margin: 20px;
+}
+.containt i{
+    margin: 0px 8px;
+    cursor: pointer;
 }
